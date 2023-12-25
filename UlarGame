@@ -1,0 +1,135 @@
+import java.util.Random;
+import java.util.Scanner;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import java.awt.Color;
+import java.awt.CardLayout;
+
+public class Jendela extends JFrame {
+    public static final String TOMBOL_MASUKGAME = "Masuk Game";
+    public static final String TOMBOL_MULAI = "Mulai";
+    public static final String TOMBOL_SETTING = "Setting";
+    public static final String TOMBOL_KELUAR = "Keluar";
+    public static final int LEBAR_LAYAR = 1024;
+    public static final int TINGGI_LAYAR = 768;
+
+    CardLayout pilihanTombol;
+
+    Jendela (){
+        this.pilihanTombol = new CardLayout();
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLayout(this.pilihanTombol);
+        this.setSize(Jendela.LEBAR_LAYAR, Jendela.TINGGI_LAYAR);
+        this.setVisible(true);
+    }
+}
+public class UlarGame {
+    public static final int KOTAK_SIZE = 10;
+    public static final char EMPTY_CELL = '-';
+    public static final char ULAR_CELL = 'O';
+    public static final char MAKANAN_CELL = 'F';
+
+    // Deklarasi variabel
+    private char[][] grid;
+    private int ularX, ularY;
+    private int MAKANANX, MAKANANY;
+    private Random random;
+
+    // fungsi ular
+    public UlarGame() {
+        grid = new char[KOTAK_SIZE][KOTAK_SIZE];
+        random = new Random();
+        initGame();
+    }
+
+    // fungsi map
+    public void initGame() {
+        for (int i = 0; i < KOTAK_SIZE; i++) {
+            for (int j = 0; j < KOTAK_SIZE; j++) {
+                grid[i][j] = EMPTY_CELL;
+            }
+        }
+
+        ularX = KOTAK_SIZE / 2;
+        ularY = KOTAK_SIZE / 2;
+        grid[ularX][ularY] = ULAR_CELL;
+
+        MAKANAN();
+    }
+
+    // fungsi MAKANAN
+    public void MAKANAN() {
+        MAKANANX = random.nextInt(KOTAK_SIZE);
+        MAKANANY = random.nextInt(KOTAK_SIZE);
+        grid[MAKANANX][MAKANANY] = MAKANAN_CELL;
+    }
+
+    // fungsi map
+    public void displayGrid() {
+        for (int i = 0; i < KOTAK_SIZE; i++) {
+            for (int j = 0; j < KOTAK_SIZE; j++) {
+                System.out.print(grid[i][j] + "  ");
+            }
+            System.out.println();
+        }
+    }
+
+    // pergerakan
+    public void move(char direction) {
+        grid[ularX][ularY] = EMPTY_CELL;
+
+        switch (direction) {
+            case 'w':
+                ularX--;
+                break;
+            case 's':
+                ularX++;
+                break;
+            case 'a':
+                ularY--;
+                break;
+            case 'd':
+                ularY++;
+                break;
+        }
+
+        if (ularX < 0) {
+            ularX = KOTAK_SIZE - 1;
+        } else if (ularX >= KOTAK_SIZE) {
+            ularX = 0;
+        }
+
+        if (ularY < 0) {
+            ularY = KOTAK_SIZE - 1;
+        } else if (ularY >= KOTAK_SIZE) {
+            ularY = 0;
+        }
+
+        if (ularX == MAKANANX && ularY == MAKANANY) {
+            MAKANAN();
+        }
+
+        grid[ularX][ularY] = ULAR_CELL;
+    }
+
+    public static void main(String[] args) {
+        // pemanggilan fungsi
+        Scanner scanner = new Scanner(System.in);
+        UlarGame game = new UlarGame();
+
+        while (true) {
+            game.displayGrid();
+            System.out.print("gunain tombol (w/a/s/d) atau 'q' untuk keluar game: ");
+            char direction = scanner.next().charAt(0);
+
+            if (direction == 'q') {
+                System.out.println("makasih ya udah main");
+                break;
+            }
+
+            game.move(direction);
+        }
+
+        scanner.close();
+    }
+}
