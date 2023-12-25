@@ -29,29 +29,20 @@ Sederhana
 
 Menyenangkan
 
-Warna: nuansa pagi hari
+Warna: Rumput Hijau
 # Analysis : User Story
 
 |Sebagai|Saya ingin bisa|Sehingga|Prioritas|
 |-----|-----|-----|-----|
-|Pemain|Berjalan kaki ke kampus|Bisa berjalan kaki kekampus|⭐⭐⭐⭐⭐|
-|Pemain|Naik bus/angkot ke kampus|Bisa naik bus/angkot kekampus|⭐⭐⭐⭐⭐|
-|Pemain|Mengendarai motor ke kampus|Bisa mengendarai motor kekampus|⭐⭐⭐⭐⭐|
-|Pemain|Melihat petunjuk atau tujuan saat menjalani perjalanan|Bisa menampilkan secara jelas untuk membimbing pemain|⭐⭐⭐|
-|Pemain|Mendapatkan tantangan atau misi baru selama perjalanan|Bisa memainkan game dengan lebih seru |⭐⭐⭐⭐⭐|
-|Pemain|Mendapatkan imbalan atau poin setelah menyelesaikan setiap perjalanan|Bisa mendapatkan keuntungan dalam permainan|⭐⭐⭐⭐|
-|Pemain|Dapat menghentikan atau menyimpan perjalanan saat saya keluar dari permainan|Bisa menyimpan perjalanan dan melanjutkannya di sesi berikutnya|⭐⭐⭐⭐|
-|Pemain|Memiliki pilihan untuk mengulang perjalanan atau memulai perjalanan baru|Bisa memberikan pengalaman yang berbeda|⭐⭐⭐⭐|
-|Pemain|Melihat dan mengelola pencapaian selama permainan|Bisa melihat pencapaian yang telah dicapai selama permainan|⭐⭐⭐|
-|Pemain|Melihat skor atau poin saya saat bermain|Bisa melihat perolehan poin mereka di menu atau antarmuka lainnya|⭐⭐⭐⭐|
-|Pemain|Memilih karakter sebelum memulai permainan|Bisa memilih karakter dari beberapa opsi yang tersedia|⭐⭐⭐|
-|Pemain|Memulai perjalanan baru untuk mengeksplorasi permainan|Bisa memulai perjalanan baru dari awal|⭐⭐⭐⭐|
-|Pemain|Merasakan perubahan cuaca (seperti hujan)|Bisa mempengaruhi tantangan dan pengalaman permainan|⭐⭐⭐⭐|
+|Pemain|Memakan Makanan|Ular Menjadi Panjang|⭐⭐⭐⭐⭐|
+|Pemain|Melewati Rintangan|Skor Bertambah|⭐⭐⭐⭐⭐|
+|Pemain|Memilih Berbagai Ular|Mempunyai Keunikan Masing-Masing|⭐⭐⭐⭐|
 
 
 
 # Desain user interface
-![WhatsApp Image 2023-12-18 at 11 48 51_a76bed23](https://github.com/elsasitimariyam/TugasUTSPDP/assets/144762238/8786e563-2318-4773-b375-9a65cfac8179)
+![WhatsApp Image 2023-12-25 at 19 21 19](https://github.com/Davidmhvk/P-Daspro/assets/144786308/8f229216-6009-4754-ab78-1de4f4f310f4)
+
 
 # Flow chart dari algoritma
 ![FlowChartSnake](https://github.com/Davidmhvk/P-Daspro/assets/144786308/5f323df9-8c53-4c22-90b2-f7172de1a56f)
