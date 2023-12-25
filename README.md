@@ -1,25 +1,25 @@
 # Latar Belakang Membuat game
-Snake Game merupakan permainan yang sederhana namun menghibur. permainan ini melibatkan ular yang terus tumbuh saat memakan objek (biasanya diberi representasi sebagai makanan) di dalam area terbatas. Tujuan utama pemain adalah menghindari benturan dengan batas atau tubuh ular sendiri. Keseruan game ini terletak pada tantangan untuk mempertahankan panjang ular seiring berjalannya waktu.
+Snake Cobs merupakan permainan yang sederhana namun menghibur. permainan ini melibatkan ular yang terus tumbuh saat memakan objek (biasanya diberi representasi sebagai makanan) di dalam area terbatas. Tujuan utama pemain adalah menghindari benturan dengan batas atau tubuh ular sendiri. Keseruan game ini terletak pada tantangan untuk mempertahankan panjang ular seiring berjalannya waktu.
 # Deskripsi dan alur cerita dari game
-Sebuah game perjalanan yang mengajak pemain merasakan perjalanan seru dan penuh tantangan dari rumah ke kampus. Kita akan membuat sebuah game sangat sederhana yang dimana pengguna dapat memilih akses berjalan, menaiki sepeda motor atau menaiki bus/angkot untuk berangkat kekampus. Pemain akan menghadapi berbagai rintangan dan memilih berbagai jalan yang akan memengaruhi perjalanan mereka kekampus. 
+Sebuah Game yang didalamnya terdapat seorang player yang menjadi ular yang dimana tugas player itu adalah mencari makan untuk ular tersebut dan menghindari rintangan-rintangan yang ada didalam game tersebut.Apabila ular/player memakan makanan tersebut maka ular akan menjadi panjang dan akan menampilkan skor dari ular tersebut, Apabila ular/player terkena rintangan maka ular itu akan berkurang skornya dan lama kelamaan akan mati.
 # Analysis : Branding
-Merk: Campus Journey
+Merk: Snake Cobs
 
-Tagline: Bersiaplah untuk perjalanan
+Tagline: Bimbinglah ular sebaik mungkin
 
-Campaign: Bagaimana membuat game yang membuat penggunanya senang dengan perjalanan dan mampu mengambil risiko
+Campaign: Bagaimana membuat game yang membuat penggunanya senang dengan tantangan dan adrenalin
 
 Target user:
 
-Usia 7+
+Usia 4+
 
-Seorang yang antusias dengan game simulasi dan perjalanan.
+Seorang yang antusias memecahkan rekor
 
-Seorang yang senang mengeksplorasi perjalanan
+Seorang yang senang mengacu adrenalin
 
 Seorang yang berani mengambil risiko
 
-Seorang yang ingin bermain game perjalanan yang menantang
+Seorang yang ingin bermain game yang menantang
 
 User experience theme:
 
