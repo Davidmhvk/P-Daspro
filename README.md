@@ -1,6 +1,5 @@
 # Latar Belakang Membuat game
-Saya ingin mendeskripsikan perjalanan saya selama sekolah melalui game ini, karena ketika saya SMA banyak sekali rintangan ketika akan berangkat ke sekolah dan faktor utamanya yaitu karena susahnya kendaraan dan jarak rumah saya ke sekolah lumayan jauh, saya berangkat sekolah dengan teman saya yang membawa kendaraan, paman saya, ayah saya atau ketika libur saya suka naik angkot. ketika diperjalanan banyak sekali hambatan maupun rintangan yang saya alami ketika berangkat sekolah.
-
+Snake Game merupakan permainan yang sederhana namun menghibur. permainan ini melibatkan ular yang terus tumbuh saat memakan objek (biasanya diberi representasi sebagai makanan) di dalam area terbatas. Tujuan utama pemain adalah menghindari benturan dengan batas atau tubuh ular sendiri. Keseruan game ini terletak pada tantangan untuk mempertahankan panjang ular seiring berjalannya waktu.
 # Deskripsi dan alur cerita dari game
 Sebuah game perjalanan yang mengajak pemain merasakan perjalanan seru dan penuh tantangan dari rumah ke kampus. Kita akan membuat sebuah game sangat sederhana yang dimana pengguna dapat memilih akses berjalan, menaiki sepeda motor atau menaiki bus/angkot untuk berangkat kekampus. Pemain akan menghadapi berbagai rintangan dan memilih berbagai jalan yang akan memengaruhi perjalanan mereka kekampus. 
 # Analysis : Branding
