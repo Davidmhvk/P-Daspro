@@ -54,6 +54,7 @@ Warna: nuansa pagi hari
 ![WhatsApp Image 2023-12-18 at 11 48 51_a76bed23](https://github.com/elsasitimariyam/TugasUTSPDP/assets/144762238/8786e563-2318-4773-b375-9a65cfac8179)
 
 # Flow chart dari algoritma
+![FlowChartSnake](https://github.com/Davidmhvk/P-Daspro/assets/144786308/5f323df9-8c53-4c22-90b2-f7172de1a56f)
 
 
 # Link demo game di Youtube
