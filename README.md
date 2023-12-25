@@ -141,3 +141,37 @@ Konsep class dalam bahasa pemrograman Java sangat penting dalam pengembangan gam
 	public class UlarGame {
 
 # Jelaskan algoritma buatan sendiri yang digunakan pada pembuatan game ini !
+Proses pengembangan algoritma pada game ular yang telah dibuat melibatkan beberapa langkah untuk merancang dan mengimplementasikan logika permainan. Berikut adalah tahapan-tahapan yang mungkin dilibatkan dalam pengembangan algoritma untuk game tersebut:
+
+Inisiasi Game (initGame):
+
+Membuat peta permainan (grid) dan menginisialisasi semua sel dengan karakter kosong.
+Menempatkan ular di tengah peta dengan menetapkan posisi awal ular (ularX dan ularY).
+Menempatkan makanan pertama kali di lokasi acak dengan menggunakan metode MAKANAN().
+Generasi Makanan (MAKANAN):
+
+Menghasilkan posisi acak untuk makanan (MAKANANX dan MAKANANY) menggunakan objek Random.
+Menempatkan makanan pada posisi tersebut di peta.
+Tampilan Peta (displayGrid):
+
+Menampilkan peta permainan ke layar dengan menampilkan isi setiap sel menggunakan dua loop for.
+Memungkinkan pemain untuk melihat posisi ular dan makanan pada peta.
+Pergerakan Ular (move):
+
+Menerima input arah dari pengguna (w, a, s, atau d) untuk memindahkan ular.
+Menghapus jejak ular dari posisi sebelumnya dengan mengubah karakter sel tersebut menjadi kosong.
+Menggunakan switch statement untuk mengubah posisi ular berdasarkan input arah.
+Memeriksa apakah ular melewati batas peta dan, jika ya, mengatur ulang posisi ular ke sisi yang berlawanan.
+Memeriksa apakah ular mencapai makanan. Jika ya, memanggil metode MAKANAN() untuk menghasilkan makanan baru dan meningkatkan panjang ular.
+Menetapkan posisi baru ular di peta dan menampilkan peta yang diperbarui.
+Loop Utama (main):
+
+Memulai game dengan membuat objek UlarGame dan menjalankan loop while (true) untuk terus menjalankan permainan.
+Menampilkan peta permainan dan meminta input arah dari pengguna menggunakan objek Scanner.
+Menghentikan permainan jika pemain memilih untuk keluar (q).
+Penanganan Input dan Penghentian (main):
+
+Menggunakan Scanner untuk membaca input dari pengguna.
+Menggunakan kondisi if untuk memeriksa apakah pengguna memilih untuk keluar dengan menekan q.
+Mengakhiri loop utama dan menutup objek Scanner jika pengguna memilih untuk keluar.
+Pada dasarnya, algoritma ini terus berulang dalam loop utama, memberikan interaksi yang sederhana namun berkelanjutan dengan pemain. Proses pengembangan ini melibatkan pemikiran logika permainan, manipulasi array untuk merepresentasikan keadaan permainan, dan penanganan input dari pengguna untuk menggerakkan ular
