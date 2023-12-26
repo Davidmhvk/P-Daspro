@@ -50,7 +50,7 @@ Warna: Rumput Hijau
 
 # Link demo game di Youtube
 # Link folder kode pemrograman dari game
-[game PDP.txt](https://github.com/elsasitimariyam/TugasUTSPDP/files/13698307/game.PDP.txt)
+https://github.com/Davidmhvk/P-Daspro/blob/main/UlarGame
 
 # Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam pembuatan game dengan bahasa pemrograman Java, konsep variabel, tipe data, dan operator sangat penting untuk mengelola data dan melakukan operasi yang diperlukan. Berikut ini salah satu cara konsep yang saya gunakan dalam pembuatan game
