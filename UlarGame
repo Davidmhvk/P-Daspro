@@ -1,33 +1,11 @@
 import java.util.Random;
 import java.util.Scanner;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import java.awt.Color;
-import java.awt.CardLayout;
 
-public class Jendela extends JFrame {
-    public static final String TOMBOL_MASUKGAME = "Masuk Game";
-    public static final String TOMBOL_MULAI = "Mulai";
-    public static final String TOMBOL_SETTING = "Setting";
-    public static final String TOMBOL_KELUAR = "Keluar";
-    public static final int LEBAR_LAYAR = 1024;
-    public static final int TINGGI_LAYAR = 768;
-
-    CardLayout pilihanTombol;
-
-    Jendela (){
-        this.pilihanTombol = new CardLayout();
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLayout(this.pilihanTombol);
-        this.setSize(Jendela.LEBAR_LAYAR, Jendela.TINGGI_LAYAR);
-        this.setVisible(true);
-    }
-}
 public class UlarGame {
     public static final int KOTAK_SIZE = 10;
     public static final char EMPTY_CELL = '-';
     public static final char ULAR_CELL = 'O';
-    public static final char MAKANAN_CELL = 'F';
+    public static final char MAKANAN_CELL = '*';
 
     // Deklarasi variabel
     private char[][] grid;
